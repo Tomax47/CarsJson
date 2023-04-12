@@ -1,0 +1,122 @@
+[
+  {
+    "model": "SS7",
+    "price" : 80000,
+    "maxSpeed": 155,
+    "fuelBurn" : 240,
+    "numberOfPassengers" : 5,
+    "carSpec" :
+      {
+        "bodyType" : "Sedan",
+        "engineType" : "Electric",
+        "transmission" : "Manual",
+        "color" : "Red"
+      }
+
+  },
+  {
+    "model": "Ladx",
+    "price" : 50000,
+    "maxSpeed": 190,
+    "fuelBurn" : 200,
+    "numberOfPassengers" : 4,
+    "carSpec" :
+      {
+        "bodyType" : "Sedan",
+        "engineType" : "Electric",
+        "transmission" : "Automatic",
+        "color" : "White"
+      }
+
+  },
+  {
+    "model": "Model X",
+    "price" : 70000,
+    "maxSpeed": 200,
+    "fuelBurn" : 150,
+    "numberOfPassengers" : 5,
+    "carSpec" :
+      {
+        "bodyType" : "SUV",
+        "engineType" : "Electric",
+        "transmission" : "Automatic",
+        "color" : "Black"
+      }
+
+  },
+  {
+    "model": "Model Y",
+    "price" : 67000,
+    "maxSpeed": 220,
+    "fuelBurn" : 300,
+    "numberOfPassengers" : 5,
+    "carSpec" :
+      {
+        "bodyType" : "SUV",
+        "engineType" : "Electric",
+        "transmission" : "Automatic",
+        "color" : "blue"
+      }
+
+  },
+  {
+    "model": "Aventador",
+    "price" : 80000,
+    "maxSpeed": 180,
+    "fuelBurn" : 150,
+    "numberOfPassengers" : 6,
+    "carSpec" :
+      {
+        "bodyType" : "Coupe",
+        "engineType" : "Gasoline",
+        "transmission" : "Manual",
+        "color" : "Yellow"
+      }
+
+  },
+  {
+    "model": "Huracan",
+    "price" : 92000,
+    "maxSpeed": 190,
+    "fuelBurn" : 300,
+    "numberOfPassengers" : 8,
+    "carSpec" :
+      {
+        "bodyType" : "Coupe",
+        "engineType" : "Gasoline",
+        "transmission" : "Automatic",
+        "color" : "Black"
+      }
+
+  },
+  {
+    "model": "Range Rover",
+    "price" : 120000,
+    "maxSpeed": 240,
+    "fuelBurn" : 280,
+    "numberOfPassengers" : 8,
+    "carSpec" :
+      {
+        "bodyType" : "SUV",
+        "engineType" : "Diesel",
+        "transmission" : "Automatic",
+        "color" : "Black"
+      }
+
+  },
+  {
+    "model": "X5",
+    "price" : 50000,
+    "maxSpeed": 178,
+    "fuelBurn" : 140,
+    "numberOfPassengers" : 4,
+    "carSpec" :
+      {
+        "bodyType" : "SUV",
+        "engineType" : "Diesel",
+        "transmission" : "Manual",
+        "color" : "White"
+      }
+
+  }
+]
