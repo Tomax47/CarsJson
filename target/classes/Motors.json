@@ -1,0 +1,44 @@
+[
+  {
+    "model": "S70",
+    "price" : 90000,
+    "maxSpeed": 220,
+    "fuelBurn" : 100,
+    "motorSpec" :
+    {
+      "bodyType" : "Ferrari",
+      "engineType" : "Fuel",
+      "transmission" : "Manual",
+      "color" : "Red"
+    }
+
+  },
+  {
+    "model": "S72",
+    "price" : 80000,
+    "maxSpeed": 190,
+    "fuelBurn" : 90,
+    "motorSpec" :
+    {
+      "bodyType" : "YaMaha",
+      "engineType" : "Electric",
+      "transmission" : "Manual",
+      "color" : "Black"
+    }
+
+  },
+  {
+    "model": "T75",
+    "price" : 120000,
+    "maxSpeed": 240,
+    "fuelBurn" : 120,
+    "motorSpec" :
+    {
+      "bodyType" : "Luxie",
+      "engineType" : "Electric",
+      "transmission" : "Automatic",
+      "color" : "Black"
+    }
+
+  }
+]
