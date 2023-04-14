@@ -58,7 +58,7 @@ public class JsonCarsDataReader {
 
             //ADDING VEHICLES TO THE INVENTORY
             System.out.println("\nAdding a vehicle : ");
-            addVehicle(inventory, "Z20",20000,200,120,5,"Bugatti","Fuel","Automatic","Carbon Black");
+            addVehicle("Car",inventory, "Z20",20000,200,120,5,"Bugatti","Fuel","Automatic","Carbon Black");
 
 
         } catch (IOException e) {
@@ -67,11 +67,11 @@ public class JsonCarsDataReader {
 
     }
 
-    public static void addVehicle(Inventory inventory,String model, int price, int maxSpeed, int fuelBurn, int passengersNum,String bodyType, String engineType, String transmission, String color ) {
-        if (passengersNum == 0) {
+    public static void addVehicle(String vehicleType,Inventory inventory,String model, int price, int maxSpeed, int fuelBurn, int passengersNum,String bodyType, String engineType, String transmission, String color ) {
+        if (vehicleType == "Motor" | vehicleType == "Motor") {
             MotorSpec motorSpec = new MotorSpec(bodyType,engineType, transmission, color);
             inventory.addMotor(model,price,maxSpeed,fuelBurn,motorSpec);
-        } else {
+        } else if (vehicleType == "Car" | vehicleType == "car"){
             CarSpec carSpec = new CarSpec(bodyType,engineType, transmission, color);
             inventory.addCar(model,price,maxSpeed,fuelBurn,passengersNum, carSpec);
         }

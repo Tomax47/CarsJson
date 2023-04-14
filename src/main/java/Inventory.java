@@ -87,6 +87,11 @@ public class Inventory {
         return matches;
     }
 
-
-
+    @Override
+    public String toString() {
+        return "Inventory{" +
+                "cars=" + cars +
+                ", motors=" + motors +
+                '}';
+    }
 }
